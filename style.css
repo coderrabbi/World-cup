@@ -256,6 +256,9 @@ img {
   .match__fixtures {
     grid-template-columns: repeat(2, 1fr);
   }
+  .see__all-btn {
+    display: block;
+  }
 }
 @media screen and (max-width: 700px) {
   .match__fixtures {
@@ -269,9 +272,6 @@ img {
     width: 100%;
     gap: 1rem;
     margin-bottom: 40px;
-  }
-  .see__all-btn {
-    display: block;
   }
 }
 
